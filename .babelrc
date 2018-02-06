@@ -1,7 +1,5 @@
 {
   "presets": [
-    "es2016",
-    "react",
-    "stage-0"
+    "react-app"
   ]
 }

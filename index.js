@@ -1,3 +1,3 @@
-import { Button } from './public/src/Button.jsx';
+const Button = request('./public/src/Button.jsx');
 
-export default Button;
+module.exports = Button;
