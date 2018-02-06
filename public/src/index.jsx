@@ -1,15 +1,11 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom';
-import { PropTypes } from 'prop-types';
+import { Button } from './Button.jsx';
 
 class App extends React.Component {
-    static propTypes = {
-        locale: PropTypes.object
-    };
-
     render() {
         return (
-            <div>123</div>
+            <Button />
         );
     }
 }
