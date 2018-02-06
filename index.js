@@ -1,3 +1,3 @@
-'use strict';
+import { Button } from './public/src/Button.jsx';
 
-module.exports = require('./public/src/Button.jsx');
+export default Button;

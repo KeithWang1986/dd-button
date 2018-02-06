@@ -1,8 +1,8 @@
 {
   "name": "dd-button",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "public/src/index.jsx",
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack"
