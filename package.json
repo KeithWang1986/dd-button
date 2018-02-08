@@ -1,6 +1,6 @@
 {
   "name": "dd-button",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/KeithWang1986/dd-button#readme",
   "dependencies": {
+    "dd-locale": "^1.0.4",
     "moment": "^2.20.1",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
