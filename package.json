@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/KeithWang1986/dd-button#readme",
   "dependencies": {
+    "dd-common": "^1.0.8",
     "dd-locale": "^1.0.4",
     "moment": "^2.20.1",
     "prop-types": "^15.6.0",

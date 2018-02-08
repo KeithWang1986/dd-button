@@ -39,7 +39,7 @@ module.exports = {
                         {
                             loader: 'css-loader',
                             options: {
-                                minimize: true //css压缩
+                                minimize: false //css压缩
                             }
                         }
                     ]

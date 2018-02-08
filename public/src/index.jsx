@@ -22,8 +22,9 @@ class App extends React.Component {
     render() {
         return (
             <LocaleProvider locale={this.state.locale}>
-                <Button value="Button.confirm" onClick={(props, e) => this.OnClick(zh_CN)} />
-                <Button value="Button.cancel" onClick={(props, e) => this.OnClick(en_US)} />
+                <Button value="Button.confirm" size="lg" onClick={(props, e) => this.OnClick(zh_CN)} />
+                <Button value="Button.cancel" size="sm" onClick={(props, e) => this.OnClick(en_US)} />
+                <Button value="Button.cancel" size="nm" onClick={(props, e) => this.OnClick(en_US)} />
             </LocaleProvider>
         );
     }
