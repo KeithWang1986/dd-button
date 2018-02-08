@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import { PropTypes } from 'prop-types';
 import { LocaleValue } from 'dd-locale';
 
+import './css/button.css';
+
 export class Button extends React.Component {
     static propTypes = {
         onClick: PropTypes.func,
@@ -19,7 +21,7 @@ export class Button extends React.Component {
 
     render() {
         return (
-            <button type="button" onClick={(e) => { if (this.props.onClick) { this.props.onClick(this.props, e) } }}>{LocaleValue(this.context.locale, this.props.value)}</button>
+            <button className="dd-button" type="button" onClick={(e) => { if (this.props.onClick) { this.props.onClick(this.props, e) } }}>{LocaleValue(this.context.locale, this.props.value)}</button>
         );
     }
 }
